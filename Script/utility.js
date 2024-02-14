@@ -14,6 +14,12 @@ function setBackgroundColorById(elementId){
 
 }
 
+function removeBackgroundColor(elementId){
+    const element = document.getElementById(elementId);
+    element.classList.remove('bg-orange-400');
+
+}
+
 function getARandomAlphabet() {
     // create random alphabet
     const alphabetString = 'abcdefghijklmnopqrstuvwxyz';
